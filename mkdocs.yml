@@ -1,0 +1,9 @@
+site_name: ohhfishal.io
+
+nav:
+  - Home: "index.md"
+  - About: "about.md"
+
+theme:
+  name: terminal
+  palette: dark
