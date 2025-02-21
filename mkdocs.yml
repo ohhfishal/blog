@@ -3,6 +3,7 @@ site_name: ohhfishal.io
 nav:
   - Home: "index.md"
   - About: "about.md"
+  - Projects: "projects.md"
 
 theme:
   name: terminal
