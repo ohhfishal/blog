@@ -1,4 +1,7 @@
-
+---
+tags:
+  - programming
+---
 Here are some things I am proud of
 
 ## [gotime](https://github.com/ohhfishal/gotime)

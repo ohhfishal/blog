@@ -1,0 +1,5 @@
+
+# Plugins
+mkdocs-git-revision-date-plugin
+mkdocs-terminal~=4.0
+mkdocs-rss-plugin
