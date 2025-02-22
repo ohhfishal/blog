@@ -1,7 +1,6 @@
 site_name: ohhfishal.io
 site_url: https://ohhfishal.github.io
 site_description: Official blogging
-repo_url: https://github.com/ohhfishal/blog
 edit_uri: edit/main/docs/
 
 nav:
@@ -12,8 +11,9 @@ nav:
 plugins:
   - search
   - git-revision-date
-  - rss
-
+  - rss:
+      categories:
+        - tags
 theme:
   name: terminal
   palette: dark
