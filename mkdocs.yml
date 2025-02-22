@@ -7,6 +7,7 @@ nav:
   - Home: "index.md"
   - About: "about.md"
   - Projects: "projects.md"
+  - Blog: "blog/index.md"
 
 plugins:
   - search
@@ -21,4 +22,9 @@ theme:
     - revision.date
     - revision.history
     - footer.prev_next
+    # - navigation.side.indexes
+    # - navigation.side.indexes.hide
+    - navigation.side.toc
     - navigation.side.toc.hide
+    - navigation.side.hide
+    # - navigation.top.hide
