@@ -6,4 +6,4 @@ tags:
 ---
 
 # 2025
-- [Strong Coding Opinons](opinions.md)
+- [Strong Coding Opinons](posts/2025/opinions.md)
