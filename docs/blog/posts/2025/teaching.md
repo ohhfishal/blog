@@ -2,7 +2,8 @@
 title: How I would teach to code
 description: Structure of a programming course and what it would entail.
 date:
-  created: 02-23-2025
+  created: 2025-02-23
+  updated: 2025-02-23
 tags:
   - programming
   - teaching
@@ -11,6 +12,8 @@ tags:
 # How I would teach to code
 
 Something us technical folk tend to neglect is **how** we go about teaching others our craft. This design is influenced by my time taking and preceptoring Computer Science classes, especially the behaviors I noticed other class structures encouraged in students.
+
+<!-- more -->
 
 As such, here is how I would structure an introductory coding class.
 

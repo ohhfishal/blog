@@ -1,6 +1,9 @@
 ---
 title: Strong Code Opinions
 description: Living log of what I think good code is
+date:
+  created: 2025-02-23
+  updated: 2025-02-23
 tags:
   - programming
 ---

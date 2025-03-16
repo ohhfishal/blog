@@ -3,28 +3,54 @@ site_url: https://ohhfishal.net
 site_description: Official blogging
 edit_uri: edit/main/docs/
 
+repo_name: ohhfishal/blog
+repo_url: https://github.com/ohhfishal/blog/
+
 nav:
   - Home: "index.md"
   - About: "about.md"
   - Projects: "projects.md"
   - Blog: "blog/index.md"
 
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+    logo: fontawesome/solid/terminal
+  # logo: assets/terminal.svg
+  # logo: fontawseome/solid-terminal
+  # logo: fontawesome/brands/github
+  favicon: assets/terminal.svg
+  font:
+    text: Roboto Mono
+    code: Roboto Mono
+  palette:
+    scheme: slate
+    primary: black
+    accent: light blue
+
 plugins:
+  - blog
   - search
-  - git-revision-date
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
   - rss:
       categories:
         - tags
-theme:
-  name: terminal
-  palette: dark
-  features:
-    - revision.date
-    - revision.history
-    - footer.prev_next
-    # - navigation.side.indexes
-    # - navigation.side.indexes.hide
-    - navigation.side.toc
-    - navigation.side.toc.hide
-    - navigation.side.hide
-    # - navigation.top.hide
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      options:
+        custom_icons:
+          - overrides/.icons
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
