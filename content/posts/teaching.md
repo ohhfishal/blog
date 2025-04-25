@@ -21,7 +21,7 @@ As such, here is how I would structure an introductory coding class.
 
 # High-Level Principles
 - Assume 0 prerequisite knowledge (outside of basic computer literacy).
-- Teach good habbits now.
+- Teach good habits now.
 - Emphasis on both reading and writing code.
 
 # [Student Stories](https://www.atlassian.com/agile/project-management/user-stories)
