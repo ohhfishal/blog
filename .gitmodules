@@ -1,0 +1,21 @@
+[submodule "themes/risotto"]
+	path = themes/risotto
+	url = https://github.com/joeroe/risotto
+[submodule "themes/hugo-simple"]
+	path = themes/hugo-simple
+	url = https://github.com/maolonglong/hugo-simple.git
+[submodule "themes/poison"]
+	path = themes/poison
+	url = https://github.com/lukeorth/poison.git
+[submodule "themes/re-terminal"]
+	path = themes/re-terminal
+	url = https://github.com/mirus-ua/hugo-theme-re-terminal.git
+[submodule "themes/dead-simple"]
+	path = themes/dead-simple
+	url = https://github.com/barklan/hugo-dead-simple.git
+[submodule "hugo-ficurinia"]
+	path = hugo-ficurinia
+	url = https://gitlab.com/gabmus/hugo-ficurinia.git
+[submodule "themes/paper-mod"]
+	path = themes/paper-mod
+	url = https://github.com/adityatelange/hugo-PaperMod.git
