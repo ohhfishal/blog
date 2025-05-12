@@ -107,10 +107,10 @@ func TestMin(t *testing.T) {
 // ...
 ```
 
+Part of teaching the class would be having the test suites evolve under time. The first few tests would leverage less features, but as the students learn structs and loops, they can begin to see them show up in the tests we distrubute to them, encouraging them to understand what exactly is being tested while also learning how to read code they did not write. I would also occasionally include `TODO` comments hinting at other things the students may want to test with their code to encourage them to write tests without it being an explict requirement.
+
 # The Stack
 - [golang.org/x/tools/present](https://pkg.go.dev/golang.org/x/tools/present): Create powerpoints that embed code examples
 - [go playground](https://go.dev/play/): Online editor to distribute practice problems
 - [Github Classroom](https://classroom.github.com/): Manage class assignment logistics / Grading
-- Public git repository to host class resources (and addendums) 
-
-Part of teaching the class would be having the test suites evolve under time. The first few tests would leverage less features, but as the students learn structs and loops, they can begin to see them show up in the tests we distrubute to them, encouraging them to understand what exactly is being tested while also learning how to read code they did not write. I would also occasionally include `TODO` comments hinting at other things the students may want to test with their code to encourage them to write tests without it being an explict requirement.
+- Public git repository to host class resources (and addendums)
