@@ -1,8 +1,8 @@
 ---
 title: How I would teach to code
 date: "2025-02-23"
-description: Structure of a programming course and what it would entail.
-summary: "Perspective on how to encourage learning"
+summary: "Perspective on how to encourage learning."
+ShowToc: true
 tags:
   - programming
   - teaching
