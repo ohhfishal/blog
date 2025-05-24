@@ -1,15 +1,12 @@
-
 ---
 title: Don't solve problems you don't have. You're literally creating problems.
-date: "2025-05-23"
+date: "2025-05-24"
 summary: Don't make things harder than they need to be.
-draft: true
 tags:
   - programming
-ShowToc: true
 ---
 
-Rather than spend time on problems you don't have, focus on right now and the **inevitable consequences** of the code you *do have*.
+Rather than spend time on problems you don't have, **focus on right now** and the inevitable consequences of the code you *do have*.
 
 <!-- more -->
 
@@ -41,7 +38,7 @@ If you have written code, by nature of it existing, it will always:
 
 These are problems that will always have to be solved. They are the consequences of the lines of code you brought into the world, so be responsible for it or no one else will. 
 
-Fix bugs as they come up. Add features to quell users desire for new things. Focus on the consequences of the work you've done not the potentialities.  Solve scaling to 1000x users as you scale to 1000x users. 
+Fix bugs as they come up. Add features to quell users' desire for new things. Focus on the consequences of the work you've done not the potentialities.  Solve scaling to 1000x users as you scale to 1000x users. 
 
 ### Scale is a fundamentally different problem.
 
@@ -55,9 +52,9 @@ When you extrapolate the bread baking to scale, you begin to ask more questions.
 
 Which stores to partner with? How do we onboard more bakers? What can we do to ensure quality and freshness across state boundaries? 
 
-The questions asked come down to how can we take what we already have and maintain enough efficiency as it scales. 
+The questions come down to how can we take what we already have and maintain enough efficiency as it scales. 
 
-Choosing partners requires having the reach and negotiationing power to do so. Onboarding bakers means the amount of bread being sold exceeds or is exceeding the bread baked. Ensuring freshness across distance and time requires your bread to be sold far from you. 
+Choosing partners requires having the reach and negotiationing power to do so. Onboarding bakers means the amount of bread being sold exceeds or is exceeding the bread baked. Ensuring freshness across distance and time requires your bread to be sold far away from the bakery. 
 
 ### When the problems change, the environment has changed.
 
@@ -65,31 +62,17 @@ As more people use your product, the number of things to manage grow. Things wil
 
 Some may be problems originally hypothesized. Some may not. Should you have tried to solve it preemptively, you may have overlooked a crucial component. 
 
-However once the problem is actually realized, the requirements and context around the problem become cleared. Bottlenecks are easier to find when they exist. User behaviors become apparent when they use your software. 
+However once the problem is actually realized, the requirements and context around the problem become clearer. Bottlenecks are easier to find when they exist. User behaviors become apparent when they use your software. 
 
-There will be more resources to solve problems. If you have the problem of selling too much, you will have more social and economical capital to hire talent to help fix the problem. 
+There will be more resources to solve problems. If you have the problem of selling too much, you will have more social and economical capital to hire talent to help fix the problem.
 
-It's important to note that part of solving problems such as scale, involve other different problems. Hiring talent is a distinct, nontechnical problem. This would have been a hypothetical problem you didn't consider (And if you did would you really have made the initial product in the first place). 
+It is important to note that part of solving problems, such as scale, involve other different problems. Hiring talent is a distinct, nontechnical problem. This would have been a hypothetical problem you didn't consider (And if you did would you really have made the initial product in the first place). It's not a problem that uses the shinny software tools.
+
+Solve problems as they come into view.
 
 ### Thinking in the now ignores tomorrow.
 
-Of course, there is some nuance here. If you were to focus purely on right now, you would never be prepared for tomorrow. Consider how things would change in the future. Its a delicate balance. 
+Of course, there is some nuance here. If you were to focus purely on right now, you would never be prepared for tomorrow. Consider how things would change in the future and build something now. Its a delicate balance. 
 
-Embrace action, but with a knowing that things will change. Design accordingly. Make decisions that are intentional and easily reversible. Leave room to change things should something go wrong.
+Embrace action, but with a knowing that things will change. Design accordingly. Make decisions that are intentional and easily reversible. Leave room to change things when something goes wrong.  Design systems that announce when they need room to grow.
 
-**TODO**: Elaborate on that more.
-- Requirements change
-
----
-
-### Notes
-
-Requirements change, so pin those down first. If you are tasked with building a food delivery app and  you focus on optimizing
-
-I know its hard. I too wish the code I write would remain in its [git repo](../opinions/) a single, perfect commit that does everything perfectly, but alas we have work to do. Learning to accept these fundamental conceits of the real world lets us prepare for the things our beautiful child of a codebase will actually experience. [^2]
-
-
-Something here about asymptotic complexity and how even that definition bakes in some constant C at which it actually matters.
-
-[^1]: How can you observe this? Does the process to guage user feedback even exist? 
-[^2]: Who like every good parent we love despite the desire to toss them out and replace them with the brand new code baby 2.0
