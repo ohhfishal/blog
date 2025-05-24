@@ -41,17 +41,23 @@ If you have written code, by nature of it existing, it will always:
 
 These are problems that will always have to be solved. They are the consequences of the lines of code you brought into the world, so be responsible for it or no one else will. 
 
-Focus on the consequences of the work you've done not the potentialities. Solve scaling to 1000x users as you scale to 1000x users. 
+Fix bugs as they come up. Add features to quell users desire for new things. Focus on the consequences of the work you've done not the potentialities.  Solve scaling to 1000x users as you scale to 1000x users. 
 
-Because, 
-
-### Scaling is a fundamentally different problem.
+### Scale is a fundamentally different problem.
 
 If you were tasked with baking a loaf of bread, you would not begin with which model of semitruck would deliver the grain. Baking a single loaf of bread is a challenge in discovery and learning. 
 
 What kind of bread? Which recipe to use? What ingredients does it need?
 
-While the problem space is small, you have more room to adapt and experiment. Take advantage of it. This is when you have the smallest number of requirements to juggle. Use this time where you can make mistakes wisely, and *learn from it*. Make your product and skills better while you still have the freedom to fail. 
+While the problem space is small, you have more room to adapt and experiment. Take advantage of it. This is when you have the smallest number of requirements to juggle. Use this time where you can make mistakes wisely, and *learn from it*. Make your product and skills better while you still have the freedom to fail.
+
+When you extrapolate the bread baking to scale, you begin to ask more questions. 
+
+Which stores to partner with? How do we onboard more bakers? What can we do to ensure quality and freshness across state boundaries? 
+
+The questions asked come down to how can we take what we already have and maintain enough efficiency as it scales. 
+
+Choosing partners requires having the reach and negotiationing power to do so. Onboarding bakers means the amount of bread being sold exceeds or is exceeding the bread baked. Ensuring freshness across distance and time requires your bread to be sold far from you. 
 
 ### When the problems change, the environment has changed.
 
@@ -59,20 +65,17 @@ As more people use your product, the number of things to manage grow. Things wil
 
 Some may be problems originally hypothesized. Some may not. Should you have tried to solve it preemptively, you may have overlooked a crucial component. 
 
-However once the problem is actually realized, the context that leads to the problem TODO TODO
+However once the problem is actually realized, the requirements and context around the problem become cleared. Bottlenecks are easier to find when they exist. User behaviors become apparent when they use your software. 
 
-complex, and you almost certainly would have missed something should you have tried fixing this before your first user (assuming you'd even make it this far). 
+There will be more resources to solve problems. If you have the problem of selling too much, you will have more social and economical capital to hire talent to help fix the problem. 
 
-The difference the hypothetical problem when it has actualized, is that you'll be better equipped to handle it.
-
-You will have more social and economical capital to hire talent to help fix the problem. Smart people will know your problem and you can pay them according to their skills.
-
+It's important to note that part of solving problems such as scale, involve other different problems. Hiring talent is a distinct, nontechnical problem. This would have been a hypothetical problem you didn't consider (And if you did would you really have made the initial product in the first place). 
 
 ### Thinking in the now ignores tomorrow.
 
-**TODO**: Don't make this sound as bad. Make the title better transition into this.
+Of course, there is some nuance here. If you were to focus purely on right now, you would never be prepared for tomorrow. Consider how things would change in the future. Its a delicate balance. 
 
-Of course, there is some nuance here. If you were to focus purely on right now, you would never be prepared for tomorrow. This is where the notion of consequences comes in.
+Embrace action, but with a knowing that things will change. Design accordingly. Make decisions that are intentional and easily reversible. Leave room to change things should something go wrong.
 
 **TODO**: Elaborate on that more.
 - Requirements change
