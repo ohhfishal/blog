@@ -12,7 +12,7 @@ Rather than spend time on problems you don't have, **focus on right now** and th
 
 It is important to question if a problem you are fixing is a consequence of what you are building or if it is a hypothetical. 
 
-Hypotheticals are the sirens song, the poisoned apple. The problems they bring are complex and let you embrace new shiny technologies to fix them, but they are a distraction. 
+Hypotheticals are the sirens song, the poisoned apple. The problems they bring are complex and let you embrace new shinny technologies to fix them, but they are a distraction.
 
 ### Watch the road, not the scenery. 
 
