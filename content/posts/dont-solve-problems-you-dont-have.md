@@ -2,6 +2,7 @@
 title: Don't solve problems you don't have. You're literally creating problems.
 date: "2025-05-24"
 summary: Don't make things harder than they need to be.
+draft: true
 tags:
   - programming
 ---
